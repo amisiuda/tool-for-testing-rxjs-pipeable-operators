@@ -1,0 +1,32 @@
+{
+    "name": "t-tpo",
+    "version": "1.0.0",
+    "main": "./dist/index.min.js",
+    "scripts": {
+        "dist": "webpack --config webpack.config.dist.js",
+        "build": "webpack --config webpack.config.dev.js",
+        "test": "karma start"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+        "@types/jasmine": "^2.8.6",
+        "@types/underscore": "^1.8.8",
+        "babel-core": "^6.26.0",
+        "imports-loader": "^0.8.0",
+        "jasmine": "^3.1.0",
+        "karma": "^2.0.0",
+        "karma-babel-preprocessor": "^7.0.0",
+        "karma-chrome-launcher": "^2.2.0",
+        "karma-jasmine": "^1.1.1",
+        "karma-sourcemap-loader": "^0.3.7",
+        "karma-spec-reporter": "0.0.32",
+        "karma-webpack": "^3.0.0",
+        "rxjs": "^5.5.8",
+        "ts-loader": "^4.1.0",
+        "typescript": "^2.8.1",
+        "underscore": "^1.8.3",
+        "webpack": "^4.4.1",
+        "webpack-cli": "^2.0.13"
+    }
+}
